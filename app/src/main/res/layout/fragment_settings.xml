@@ -1,0 +1,26 @@
+<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/radioGroup"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    tools:context="ru.suleymanovtat.secondtask.fragment.SettingsFragment">
+
+    <RadioButton
+        android:id="@+id/radioButtonGoogle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/google" />
+
+    <RadioButton
+        android:id="@+id/radioButtonYandex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/yandex" />
+
+    <RadioButton
+        android:id="@+id/radioButtonBing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bing" />
+</RadioGroup>
